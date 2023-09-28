@@ -2,7 +2,7 @@ body{
 margin: 0%;
 padding: 0%;
 font-family:Ledger;
-background: url(Mergulhoinicial.jpg);
+background: url(img/Mergulhoinicial.jpg);
 background-size:contain;
 background-repeat:no-repeat;
 }
@@ -16,20 +16,20 @@ section{
 /*background*/
 
 .Front{
-    background: url(Mergulhoextra.jpg);
+    background: url(img/Mergulhoextra.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .Ux{
-    background: url(Mergulho2.jpg);
+    background: url(img/Mergulho2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .About{
-    background: url(Mergulhoextra.jpg);
+    background: url(img/Mergulho2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
