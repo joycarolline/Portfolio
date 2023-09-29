@@ -47,12 +47,14 @@ section{
     box-sizing: border-box; 
     background: rgba(0, 0, 0, 0.443);
     border-bottom: 1px solid #fff;
+   
 }
 
 .nav-scrolled{
+    transition: 5s;
     z-index: 0;
     width: 95%;
-    height: 70px;
+    height: 65px;
     padding: 10px 10px 10px 10px;
     box-sizing: border-box; 
     background: rgba(0, 0, 0, 0.898);
@@ -96,7 +98,7 @@ nav ul li a:hover{
 
 /*options*/
 
-a{
+.link1{
     text-decoration: none;
     color:#fff;
     padding: 1px;
@@ -168,7 +170,7 @@ h2{
 p{
     color:#fff;
     font-family: Hina Mincho;
-    font-size:larger;
+    font-size:large;
     display: inline;
     font-weight: 200;
 }
@@ -185,7 +187,7 @@ p{
 
 .text-about{
     color: #fff;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-right: 10px;
     text-align: left;
  }
@@ -193,38 +195,55 @@ p{
 
 .title-about {
     display: block;
-    text-align: center;
+    text-align: left;
     font-weight: 300;
-      }
+}
 
-button{
-       display: block;
-       margin-left: 295px;
-       width: 170px;
-       height: 25px;
-       font-family: Ledger;
-       text-align: center;
-       background-color: #fff;
-       border-radius: 10px;
-    }
-
-button:hover{
-        margin-left:  295px;
-        width: 170px;
-        height: 25px;
-        font-family: Ledger;
-        background-color: rgba(0, 0, 0, 0.543);
-        border: 1px solid #fff;
-        color: #fff;
-    }
 
 .position{
-    display: flex;
-    padding: 1%;
-    margin-top: 95px;
+    
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    grid-auto-rows: 160px;
+    grid-column-gap: 20px;
+    grid-row-gap: 8em;
+    margin-top: 100px;
 }
 
 .picture{
+   
+    margin-top: 50px;
+    height: 250px;
+    padding-left: 26px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.bio{
+    font-family: Hina Mincho;
+    font-size: larger;
+    font-weight: 100;
+
+}
+
+.links-logos{
+    height: 80px;
+    width: 280px;
     display: flex;
-    margin-top: 30px;
+    padding-left: 90px;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.linkedin-logo{
+    padding: 15px;
+}
+
+.github-logo{
+    padding: 15px;
+}
+
+.linktree-logo{
+    padding: 15px;
 }
