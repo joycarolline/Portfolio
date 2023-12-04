@@ -15,7 +15,7 @@ section{
 
 /*background*/
 
-.Front{
+.Dev{
     background: url(img/Mergulhoextra2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,14 +51,14 @@ section{
 }
 
 .nav-scrolled{
-    transition: 5s;
+    transition: 2s;
     z-index: 0;
     width: 95%;
     height: 65px;
     padding: 10px 10px 10px 10px;
     box-sizing: border-box; 
-    background: rgba(0, 0, 0, 0.898);
-    border-bottom: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.872);
+    border-bottom: 0.2px solid rgb(182, 179, 179);
 }
 
 .logo{
@@ -128,16 +128,20 @@ nav ul li a:hover{
 }
 
 .content{
-    display: flex;
+    
     flex-wrap: wrap;
     width: 100%;
     height: 200px;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
-.title{
-    margin-top: 40px;
+.content_projects{
+    
+    margin-top: 60px;
+    padding-left: 180px;
+
 }
+
 
 h1{
     color: #fff;
@@ -159,13 +163,6 @@ h2{
     
 }
 
-.subtitle1{
-    margin-left: 355px;
-}
-
-.subtitle2{
-    margin-left: 460px;
-}
 
 p{
     color:#fff;
@@ -175,12 +172,6 @@ p{
     font-weight: 200;
 }
 
-.url{
-    display: inline-flex;
-    justify-content: center;
-    vertical-align: middle;
-    margin-bottom: 30px;
-}
 
 
 
