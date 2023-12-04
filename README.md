@@ -4,6 +4,6 @@ Portfólio pessoal de Desenvolvimento e Ux designer.
 
 Linguagens:
 
-HTML, CSS e Javascript. 
+HTML, CSS e JavaScript. 
 
 
