@@ -2,7 +2,7 @@
 
 Portfólio pessoal de Desenvolvimento e Ux designer. 
 
-Tecnológias:
+Linguagens:
 
 HTML, CSS e Javascript. 
 
